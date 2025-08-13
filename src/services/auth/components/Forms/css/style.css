@@ -1,0 +1,27 @@
+.register-form section {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  gap: 15px;
+}
+
+.register-form section article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.register-form section article input {
+  border-radius: 20px;
+  border-top-left-radius: 50px;
+  border: none;
+  background-color: var(--bg-color);
+  font-size: 13px;
+  padding: 10px 0;
+  text-indent: 10px;
+}
+
+.register-form section article input:focus {
+  outline: none;
+}

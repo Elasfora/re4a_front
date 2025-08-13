@@ -1,0 +1,55 @@
+.auth-footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.auth-footer .auth-div {
+  border-radius: 120px 60px 120px 60px;
+  padding: 8px;
+  background-color: var(--bg-color);
+}
+
+.auth-button {
+  position: relative;
+  z-index: 2;
+  background-color: var(--bg-cont-color);
+  border-radius: 120px 60px 120px 60px;
+  padding: 10px 60px;
+  color: var(--font-white);
+  border: none;
+  cursor: pointer;
+}
+
+.auth-button span {
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  background-color: var(--bg-cont-color);
+  border-radius: 50%;
+}
+
+.auth-button-ani {
+  position: absolute;
+  background-color: var(--bg-color);
+  width: 80px;
+  height: 80px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.auth-button-ani::before {
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: var(--bg-cont-color);
+}

@@ -1,0 +1,31 @@
+:root {
+  --bg-color: #e2edf1;
+  --font-forBg-color: #434c5b;
+
+  --bg-cont-color: #2196f3;
+  --font-white: #fff;
+
+  --font-important-color: #c00000;
+  --bg-important-color: #c00000;
+
+  --bg-success-color: #009688;
+
+  --bg-shape-color: #fff;
+}
+
+body {
+  font-family: "Tajawal", sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+  background-color: var(--bg-color) !important;
+  color: var(--font-forBg-color);
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  border-right: 5px solid #bbb;
+}

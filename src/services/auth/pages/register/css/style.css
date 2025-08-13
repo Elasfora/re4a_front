@@ -1,0 +1,18 @@
+.register-page {
+  direction: rtl;
+  position: relative;
+  width: 100%;
+  top: 10vh;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 60px;
+}
+
+.register-page > article {
+  padding: 10px 30px;
+}
+
+.register-page > article h1 {
+  text-shadow: 0 0 0 var(--font-forBg-color);
+  margin-bottom: 25px;
+}

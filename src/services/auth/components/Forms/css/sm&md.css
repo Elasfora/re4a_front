@@ -1,0 +1,5 @@
+@media (width <=576px) {
+  .register-form section article input {
+    padding: 12px 0 7px 0;
+  }
+}

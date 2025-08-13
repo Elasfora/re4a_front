@@ -1,0 +1,14 @@
+@media (width <=576px) {
+  .rounded-top::before,
+  .rounded-bottom::before {
+    height: 5px;
+  }
+
+  .rounded-bottom {
+    padding-top: 20px;
+  }
+
+  .rounded-bottom::before {
+    bottom: 75%;
+  }
+}

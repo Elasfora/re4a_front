@@ -1,0 +1,5 @@
+@media (width <=576px) {
+  .auth-footer {
+    margin-top: 50px;
+  }
+}

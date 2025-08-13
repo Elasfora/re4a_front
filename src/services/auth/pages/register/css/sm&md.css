@@ -1,0 +1,6 @@
+@media (width <=576px) {
+    .register-form section article input:text {
+      display: none;
+    }
+  }
+  
